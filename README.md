@@ -1,4 +1,4 @@
-# AIDA Athlete Performance Gradient Analysis
+# AIDA Athlete Performance Analysis
 
 ---
 
