@@ -97,49 +97,19 @@ Decline onset is defined as the first sustained:
 ```
 .
 ├── data/
-│   └── raw/                # Original AIDA dataset
-│   └── processed/          # Cleaned dataset
-│
+│   ├── raw/                # Original AIDA ranking datasets
+│   └── processed/          # Cleaned and derived datasets
 ├── scripts/
-│   ├── preprocessing.py    # Data cleaning and grouping
-│   ├── peak_detection.py   # Peak identification logic
-│   ├── decline_analysis.py # Decline detection logic
-│   └── metrics.py          # Metric computation
-│
+│   ├── data_preparation/   # Cleaning and dataset preparation
+│   ├── analysis/           # Descriptive and trend analysis
+│   └── modeling/           # Predictive models
 ├── results/
-│   ├── tables/             # Summary statistics
-│   └── figures/            # Visualizations (optional)
-│
-├── notebooks/
-│   └── analysis.ipynb      # Reproducible analysis workflow
-│
+│   ├── figures/            # Generated plots
+│   └── reports/            # Presentation and report files
+├── notebooks/              # Optional notebooks
 └── README.md
-```
 
 ---
-
-## Reproducibility
-
-### Requirements
-
-* Python ≥ 3.9
-* pandas
-* numpy
-
-### Run Analysis
-
-```bash
-# Clone repository
-git clone https://github.com/your-username/aida-performance-analysis.git
-
-# Navigate to project
-cd aida-performance-analysis
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run analysis
-python scripts/metrics.py
 ```
 
 ---
