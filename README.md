@@ -106,7 +106,6 @@ Decline onset is defined as the first sustained:
 ├── results/
 │   ├── figures/            # Generated plots
 │   └── reports/            # Presentation and report files
-├── notebooks/              # Optional notebooks
 └── README.md
 
 ---
